@@ -4,8 +4,13 @@ exports.countAnswers = {
   count: function (start, end) {
     var countArray = [];
     for(var i = start; i < end+1; i++){
-      countArray.push(i);
-    }
-    return countArray;
+      setTimeout(countArray.push(i), 100);
+    }    
+    var cancel = function(){
+      
+    };
+    
+    return countArray;    
   }
+  
 };
