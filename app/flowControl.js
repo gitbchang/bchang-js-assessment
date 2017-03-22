@@ -3,7 +3,7 @@ exports = typeof window === 'undefined' ? global : window;
 exports.flowControlAnswers = {
   fizzBuzz: function(num) {
     // write a function that receives a number as its argument;
-    /*
+    
     if((num%3===0) && (num%5===0)){
       return 'fizzbuzz';
     }
@@ -19,25 +19,28 @@ exports.flowControlAnswers = {
     else {
       return num;
     }
-    */
+    
 
+    /*
     
     switch(num){
       case ((num%3===0) && (num%5===0)):
         return 'fizzbuzz';
-      break;
+      // break;
       case (num%3===0):
         return 'fizz';
-      break;
+      // break;
       case (num%5===0):
         return 'buzz';
-      break;
+      // break;
       case (Number.isInteger(num) === false):
         return false;
-      break;
+      // break;
       default: 
       return num;
-      }
+    }
+    
+    */
       
 
 
